@@ -56,6 +56,7 @@ header a {
   padding: 8px 15px;
   color: white;
   text-decoration: none;
+  display: inline-block;
 }
 
 .container-big {
@@ -68,6 +69,7 @@ header a {
   padding: 8px 25px;
   color: white;
   text-decoration: none;
+  display: inline-block;
 }
 
 .relative {
@@ -151,6 +153,7 @@ h1 {
   bottom: -75px;
 }
 /*************FINE JAMBO*************/
+/************** INIZIO COLONNA***********/
 
 .container-small h2 {
   font-size: 3rem;
@@ -164,6 +167,7 @@ h1 {
 
 .row {
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .coll {
@@ -231,4 +235,53 @@ hr {
 
 .text-left {
   max-width: 75%;
+}
+/************** FINE COLONNA***********/
+/**********INIZIO PARTNER************/
+ 
+.partner{
+    margin-top: 130px;
+}
+
+.partner-img{
+    max-width: 65%;
+    padding-right: 50px;
+}
+
+.partner-img img{
+    width: 100%;
+}
+
+.partner-text{
+    max-width: 45%;
+    padding-top: 40px;
+}
+
+.partner-text h3{
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    line-height:1.5 ;
+}
+
+.partner-text .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black ;
+    margin-top: 30px;
+}
+/*********FINE PARTNER**********/
+  
+.drop-business h2{
+    font-size: 2.0rem;
+}
+
+.card-business h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.card-business{
+    width: calc(100% / 3 - 80px);
+    margin-right: 40px;
 }
