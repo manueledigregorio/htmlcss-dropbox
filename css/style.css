@@ -162,7 +162,7 @@ h1 {
 /*************FINE JAMBO*************/
 /************** INIZIO COLONNA***********/
 
-.container-small h2 {
+#title {
   font-size: 3rem;
   padding-top: 130px;
   padding-bottom: 40px;
@@ -278,8 +278,9 @@ h1 {
 }
 /*********FINE PARTNER**********/
 /********INIZIO DROP-BUSINESS****/
-.drop-business h2{
+#title-2{
     font-size: 2.0rem;
+    margin-top: 130px;
 }
 
 .card-business h3{
@@ -298,12 +299,24 @@ h1 {
     margin-bottom: 150px;
 }
 
+#title-3{
+    margin-top: 130px;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+
+}
+
 /********FINE DROP-BUSINES******/
 /********INIZIO DESING******/
 
 .cont-box{
     flex-wrap: wrap; 
 }
+
+.col{
+    width: calc(100% / 3);
+}
+
 
 .box{
     width: 50%;
@@ -374,6 +387,23 @@ h1 {
     background-color: #ffd830;
 }
 
+
+.container-desing{
+    background-color: #b4d0e7;
+    padding: 120px;
+}
+
+.title-desing h2 {
+    color: #62092B;
+    font-size: 2.0rem;
+    padding-right: 300px;
+}
+
+.btn-desing{
+    background-color: white;
+    color: black;
+   
+}
 
 
 /********FINE DESING******/
