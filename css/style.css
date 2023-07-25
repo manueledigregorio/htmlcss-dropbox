@@ -8,17 +8,22 @@
 
 .debug {
   background-color: aqua;
-  height: 500px;
+  height: 20px;
+  flex: 1;
+  
 }
 
 .debug-1 {
   background-color: brown;
-  height: 500px;
+  height: 20;
+  flex: 1;
+ 
 }
 
 .debug-2 {
   background-color: chocolate;
-  height: 500px;
+  height: 30px;
+  flex: 1;
 }
 
 .flex {
