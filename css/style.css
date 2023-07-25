@@ -284,4 +284,5 @@ hr {
 .card-business{
     width: calc(100% / 3 - 80px);
     margin-right: 40px;
+    padding-top: 30px;
 }
