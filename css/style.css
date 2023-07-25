@@ -108,6 +108,8 @@ header .header li:hover {
 
 header img {
   align-self: center;
+  padding-left: 20px;
+
 }
 
 .header-right ul {
@@ -223,7 +225,7 @@ h1 {
   padding-top: 20px;
 }
 
-hr {
+ .bt-big hr {
   width: 50px;
   margin-top: 20px;
 }
@@ -292,9 +294,89 @@ hr {
     padding-top: 30px;
 }
 
+.extra-business{
+    margin-bottom: 150px;
+}
+
 /********FINE DROP-BUSINES******/
-/********INIZIO TITLE BUSINES******/
+/********INIZIO DESING******/
+
+.cont-box{
+    flex-wrap: wrap; 
+}
+
+.box{
+    width: 50%;
+    Aspect-ratio:1/1; 
+     
+}
+
+.left img ,
+.right img{
+    filter: invert(1);
+}
+
+.cont-box .box img {
+    width: 50%;
+    
+  
+}
+
+.center img{
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+
+.center p{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.center hr{
+    width: 110px;
+}
+
+.center{
+    background-color: #F5F5F5;
+    padding: 45px 35px;
+}
+
+.background-1{
+    background-color: #A2D39B;
+}
+
+.background-2{
+    background-color: #61082b;
+}
+
+.background-3{
+    background-color: #0093ce;
+}
+
+.background-4{
+    background-color: #ff1c1c;
+}
+
+.background-5{
+    background-color: #d5001f;
+}
+
+.background-6{
+    background-color: #b4d0e7;
+}
+
+.background-7{
+    background-color: #0d2481;
+}
+
+.background-8{
+    background-color: #ffd830;
+}
 
 
 
-/********FINE TITLE BUSINES******/
+/********FINE DESING******/
+
+
+
