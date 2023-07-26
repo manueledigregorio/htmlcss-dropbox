@@ -434,15 +434,37 @@ border: 20px solid rgba(255, 255, 255, 0.5);
   padding-bottom: 100px;
 }
 
+.text-request {
+    display: none;
+    padding-top: 30px;
+}
+
+.fa-chevron-up{
+    display: none;
+}
+
 .request{
     padding-bottom: 100px;
 }
 
-.section-request {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: space-between;
+.section-request:hover .text-request {
+    display: block;
 }
+
+.section-request:hover .fa-chevron-up{
+    display: block;
+}
+
+.section-request:hover .fa-chevron-down{
+    display: none;
+}
+
+.section-request {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
 .request:last-child {
   padding-bottom: 100px;
