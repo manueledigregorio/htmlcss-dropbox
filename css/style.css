@@ -148,11 +148,6 @@ h1 {
   cursor: pointer;
 }
 
-.flex-column i {
-  font-size: 50px;
-  padding: 50px 0px 30px 0px;
-}
-
 .jumbo img {
   width: 800px;
 }
@@ -161,6 +156,13 @@ h1 {
   right: 50px;
   bottom: -75px;
 }
+.fa-arrow-down{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 50px 0px 30px 0px;
+}
+
 /*************FINE JAMBO*************/
 
 /************** INIZIO COLONNA***********/
@@ -434,6 +436,10 @@ border: 20px solid rgba(255, 255, 255, 0.5);
   padding-bottom: 100px;
 }
 
+.request{
+    padding-bottom: 100px;
+}
+
 .text-request {
     display: none;
     padding-top: 30px;
@@ -441,10 +447,6 @@ border: 20px solid rgba(255, 255, 255, 0.5);
 
 .fa-chevron-up{
     display: none;
-}
-
-.request{
-    padding-bottom: 100px;
 }
 
 .section-request:hover .text-request {
