@@ -83,6 +83,11 @@ header a {
   position: absolute;
 }
 
+ i{
+
+  padding-right: 5px;
+}
+
 /***+HEADER****/
 
 .header {
@@ -422,6 +427,7 @@ border: 20px solid rgba(255, 255, 255, 0.5);
 
 .btn-desing {
   background-color: white;
+  padding: 20px;
   color: black;
 }
 
